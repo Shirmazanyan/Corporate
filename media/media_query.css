@@ -1,0 +1,164 @@
+
+
+
+@media screen and (max-width: 1024px){
+    body{
+        overflow-x: hidden;
+    }
+    .b_corp{
+        display: none;
+    }
+    .b_info{
+        display: none;
+    }
+    .input-information img{
+        display: none;
+    }
+    .input-information .input-info{
+        display: none;
+    }
+    .col-sm-3{
+    max-width: 800px;
+    }
+    .footer .container .row .col-sm-3{
+        max-width: 22%;
+    }
+    .footer .container .soc-icons{
+        margin-left: 22px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header .container .subtitle{
+        font-size: 40px;
+    }
+    .features .container .row{
+        text-align: center;
+    }
+    .client .container .client-block .col-sm-4 .n_t5{
+        display: none;
+    }
+    .client .container .logos{
+        max-width: 0;
+    }
+    .designers .container .nor_t6{
+        font-size: 30px;
+    }
+    .designers .container .input-contacts .cont-input{
+        max-width: 163px;
+    }
+    .designers .container .input-contacts .btn-input-contacts{
+            font-size: 14px;
+    }
+    .footer .container .row{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .footer .container .row .col-sm-3{
+        max-width: 100%;
+    }
+    .footer .container .row .col-sm-3 .footer-logo .logo-text{
+            font-size: 35px;
+    }
+    .footer .container .row .col-sm-3 .footer-logo .logo-bg-footer p{
+        display: none;
+    }
+    .footer .container .row .col-sm-3 .email-adress{
+        display: flex;
+        justify-content: center;
+        margin-left: 59px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .platform .container .text-deg  .man  img{
+        width: 100%;
+    }
+    .features{
+        height: auto;
+    }
+    .features .colorfull2{
+        display: none;
+    }
+    .features .container .row .col-sm-12 .n_t3{
+        margin-top: 100px;
+    }
+    .responsive-design{
+        margin-top: 100px;
+    }
+    .responsive-design{
+        margin-top: 0;
+    }
+    .client{
+        height: auto;
+    }
+    .client .container .logos{
+        display: none;
+    }
+    .designers .container .input-contacts{
+        display: flex;
+        flex-direction: column;
+    }
+    .designers .container .input-contacts .cont-input{
+        max-width: 69%;
+        
+    }
+    .footer .container .row .col-sm-3 .email-adress{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .designers .container .input-contacts .btn-input-contacts{
+      width: 219px;
+    }
+    .footer .container .row .col-sm-3 .email-adress input{
+        width: 153px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .header .container .animation-hide .hosting{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header .container .subtitle {
+    font-size: 23px;
+}
+    .platform .container .text-deg .info-block .name-text{
+            font-size: 19px;
+    }
+    .platform .container .text-deg .n_t1{
+        font-size: 14px;
+    }
+    .features .container .row .col-sm-12 .n_t3{
+        font-size: 23px;
+    }
+    .features .container .row .col-sm-4 h5{
+        font-size: 14px;
+    }
+    .features .container .row .col-sm-4 .n_t2{
+        font-size: 13px;
+    }
+    .awesome-feutures .container .username-fuetures{
+        font-size: 23px;
+    }
+    .designers .container .nor_t6{
+        font-size: 23px;
+    }
+    .designers .container .input-contacts .cont-input{
+        max-width: 80%;
+    }
+    .footer .container .row .col-sm-3 .footer-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .footer .container .row .col-sm-3 .email-adress {
+    margin-left: -33px;
+}
+}
